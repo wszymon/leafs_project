@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    font-style: italic;
+    background-repeat: no-repeat;
+    background-size: cover;
+    shape-margin: .75rem;
+    /* fill 'alt' every time */
+}
+
+input,
+button {
+    outline: none;
+    border: none;
+}
